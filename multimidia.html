@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+    <body>
+        <main>
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2 id="topo">A revolução do Google está chegando</h2>
+                </hgroup>
+                
+                <img id="icone" src="_imagens/multimidia.png" /> <!-- usando um id="" para poder selecioná-lo na função com document.getElementById e mudar a foto-->
+
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul type="disc">
+                        <li onmousemove="mudaFoto(home)" onmouseout="mudaFoto(multimidia)"><a href="index.html" target="_self">Home</a></li>
+
+                        <li onmousemove="mudaFoto(espec)" onmouseout="mudaFoto(multimidia)"><a href="specs.html" target="_self">Especificações</a></li>
+
+                        <li onmouseover="mudaFoto(fotos)" onmouseout="mudaFoto(multimidia)"><a href="fotos.html" target="_self">Fotos</a></li>
+
+                        <li onmouseover="mudaFoto(multimidia)" onmouseout="mudaFoto(multimidia)"><a href="multimidia.html" target="_self" >Multimídia</a></li>
+
+                        <li onmouseover="mudaFoto(contato)" onmouseout="mudaFoto(multimidia)"><a href="fale-conosco.html" target="_blank">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="corpo-full">
+                <article id="noticia-principal">
+                    <header>
+                        <hgroup>
+                            <h3>Glass > Multimídia</h3>
+                            <h1>Sons e Vídeos</h1>
+                            <h2>por Gustavo Guanabara</h2>
+                            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                        </hgroup>
+                    </header>
+            
+                    <div id="tv-radio">
+
+                        <audio id="musica" controls="controls">
+                            <source src="Material/Pacote 2/_media/2009-lovers-carvings-bibio.mp3" type="audio/mp3">
+                        </audio>
+
+                        <video id="filme" controls>
+                            <source src="Material/Pacote 2/_media/getting-started.mp4" type="video/mp4"/>
+                            Desculpe mas não foi possível carregar o áudio
+                        </video>
+                        
+                                                
+                    </div>  
+                </article>
+            <footer>Copyright Cassio Szerniak 2021</footer>
+        </main>
+    </body>
+</html>

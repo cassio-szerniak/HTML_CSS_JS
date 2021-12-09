@@ -1,0 +1,187 @@
+@methacarset "utf-8";
+
+img#icone {
+    position: absolute;
+    top: 55px;
+    margin-left: 630px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+header#cabecalho {
+    height: 150px;
+    background: url("_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+}
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+    padding: 0px;
+    margin-top: 0px;
+}
+header h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+h3.direita {
+    margin-left: 650px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    margin-left: 230px;
+    padding: 0px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: #b1b0b0;
+    padding: 10px;
+    transition: background-color 0.8s;
+}
+nav#menu li:hover{
+    background-color: gray;
+}
+nav#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+p {
+    margin: 0px;
+    text-indent: 15px;
+    text-align: justify;
+}
+article{
+    display: block;
+    border-top: 1px solid black;
+    
+}
+section {
+    display: block;
+    width: 450px;
+    float: left;
+    border-right: 1px solid black;
+    margin: 0px;
+
+    padding: 10px 10px 20px 0px;
+    
+}
+aside {
+    display: block;
+    width: 250px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+    
+}
+
+main {
+    width: 900px;
+    background-color: white;
+    margin: -10px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    padding: 15px;
+
+}
+table#especificacoes {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#especificacoes caption {
+    color: rgb(54, 150, 142);
+    font-size: 1.05em;
+    padding-top: 20px;
+}
+table#especificacoes caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    padding-top: 10px;
+}
+table#especificacoes td {
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+}
+.colunaesquerda {
+    text-align: right;
+    background-color: cadetblue;
+}
+.colunadireita {
+    text-align: left;
+    background-color: rgba(95, 158, 160, 0.39);
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+}
+figure.foto-legenda {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 24px;
+    padding: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+    position: relative;
+    border: 8px solid rgb(255, 255, 255);
+}
+figure.foto-legenda img {
+    width: 265px;
+    padding: 0px;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+figure.foto-legenda figcaption h3 {
+    margin-top: 10px;
+}
+figure.foto-legenda figcaption p {
+    font-size: 10pt;
+}
