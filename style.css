@@ -1,4 +1,4 @@
-@methacarset "utf-8";
+@charset "utf-8";
 
 img#icone {
     position: absolute;
@@ -12,7 +12,7 @@ nav#menu h1 {
 
 header#cabecalho {
     height: 150px;
-    background: url("_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+    background: url("imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 }
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
